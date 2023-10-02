@@ -1,0 +1,183 @@
+*{
+     margin: 0px;
+     padding: 0px;
+}
+.MainCreateDp{
+     height: 100vh;
+     width: 100vw;
+     background-color: rgb(42, 43, 46);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.main4CreateDp4{
+     height: 70vh;
+     width: 80vw;
+     background-color: rgb(21, 209, 209);
+     border-radius: 12px;
+     
+     padding: 12px;
+
+}
+.headDp{
+     height: 8vh;
+     display: flex;
+     align-items: center;
+     /* background-color: crimson; */
+
+}
+.middleDp4{
+     height: 35vh;
+     background-color: #fff;
+     padding: 12px;
+}
+.headDp p{
+     font-size: x-large;
+     font-weight: bolder;
+}
+.middleDp4 input{
+     width: 42vh;
+     height: 9vh;
+}
+.firstMiddle{
+     display: flex;
+     justify-content: space-between;
+     /* background-color: rgb(14, 152, 226); */
+     width: 78vw;
+     height: 12vh;
+     align-items: center;
+}
+.firstMiddle .begin p{
+     font-size: large;
+     font-weight: bolder;
+}
+.firstMiddle .begin input{
+     height: 8vh;
+     width: 32vw;
+     border: none;
+     outline: none;
+     border-bottom: 2px solid #ecdcdc;
+}
+.firstMiddle .inputBegin2 input{
+     height: 10vh;
+     width: 32vw;
+     border: none;
+     outline: none;
+     border-bottom: 2px solid #000;
+     font-size: large;
+}
+.secondMiddle{
+     width: 78vw;
+     height: 12vh;
+     /* background-color: aqua; */
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.secondMiddle input{
+     width: 32vw;
+     border: none;
+     outline: none;
+     border-bottom: 2px solid #000;
+}
+.x{
+     height: 8vh;
+    background-color: #fff;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.media{
+     height: 8vh;
+   background-color: #fff;
+     display: flex;
+}
+.media .allMedia{
+   
+     display: flex;
+     width: 35vw;
+     align-items: center;
+     gap: 20px;   
+}
+.media .allMedia p{
+     font-size: larger;
+     font-weight: bolder;
+}
+.media .allMedia button{
+     border-radius: 20px;
+     width: 8vw;
+     /* gap: 12px; */
+     font-size: small;
+     background-color:#1D8CFB;
+     color: black;
+}
+.media .allMedia button span{
+     font-weight: bolder;
+     text-decoration: none;
+     font-size: large;
+     color: red;
+}
+.ManyButons{
+     height: 8vh;
+    background-color: #fff;
+     display: flex;
+     justify-content: end;
+}
+.ManyButons .ManyButtons2{
+     width: 38vw;
+     /* background-color: #1D8CFB; */
+     margin-right: 22px;
+     display: flex;
+     align-items: center;
+     gap: 12px;
+}
+.ManyButons .ManyButtons2 button:nth-child(1){
+     background-color: #1D8CFB;
+     border-radius: 12px;
+     color: #fff;
+     width: 8vw;
+     height: 5vh;
+}
+.ManyButons .ManyButtons2 button:nth-child(2){
+     background-color: #19D16F;
+     border-radius: 12px;
+     color: #fff;
+     width: 12vw;
+     height: 5vh;
+}
+.ManyButons .ManyButtons2 button:nth-child(2){
+     background-color: #19D16F;
+     border-radius: 12px;
+     color: #fff;
+     width: 12vw;
+     height: 5vh;
+}
+.ManyButons .ManyButtons2 button:nth-child(3){
+     background-color:#D80F0F;
+     border-radius: 12px;
+     color: #fff;
+     width: 12vw;
+     height: 5vh;
+}
+.x .icon{
+     color: #fff;
+     background-color: #19D16F;
+     width: 32px;
+     height: 32px;
+     border-radius: 50%;
+     border-color: 2px solid #19D16F; 
+}
+.mainCreateDp4{
+    
+     height: 8vh;
+     width: 20vw;
+     display: flex;
+     align-items: center;   
+}
+.mainCreateDp4 button{
+     width: 15vw;
+     height: 7vh;
+     background-color: #00CCFD;
+     border-radius: 15px;
+     text-decoration: none;
+}

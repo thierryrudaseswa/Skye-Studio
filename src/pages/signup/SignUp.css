@@ -1,0 +1,114 @@
+
+*{
+    padding: 0px;
+}
+.mainSign{
+  background-color: #1D8CFB;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  /* justify-content: center; */
+}
+#img1{
+    height: 450px;
+    position: absolute;
+    top: -40%;
+    width: 380px;
+    transform: rotate(-40deg);
+
+    background-color: 
+    #E0E0E0;
+    border-radius: 25px;
+}
+.formSign{
+    height:555px;
+    width: 450px;
+    /* background-color: #d28f6d; */
+    background-color: 
+    #F6FBF9;
+    margin: 10px auto;
+    z-index: 1; 
+    padding: 3px 0px;
+    border-radius: 20px;
+    
+}
+.headSign{
+    /* background-color: #1D8CFB; */
+    width: full;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;  
+}
+.text{
+    /* background-color: #da500b; */
+    display: flex;
+    justify-content: center;
+    color: rgb(19, 18, 18);
+}
+.inputSign{
+    height: 300px;
+    width: 445px;
+    /* background-color: #6ae990; */
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   padding: 40px 0px;
+  
+
+}
+.inputSign input{
+    width: 320px;
+    height: 52px;
+    padding: 0px 30px;
+    border-radius: 8px;
+}
+.buttonSign{
+    width:full;
+    /* height: 52px; */
+    /* background-color: #fc25ee; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+.buttonSign button{
+    background-color: #1D8CFB;
+    width: 250px;
+    height: 60px;
+    border-radius: 20px;
+    font-size:large;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+.alreadySign{
+   
+    /* background-color: #fff; */
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+} 
+.alreadySign span{
+   text-decoration: none;
+   outline: none;
+   cursor: pointer;
+}
+.image2{
+    height: 500px;
+    position: absolute;
+    bottom: -25%;
+    right: 71px;
+    width: 330px;
+    transform: rotate(-60deg);
+    overflow: hidden;
+    background-color: 
+    #E0E0E0;
+    border-radius: 25px;
+}

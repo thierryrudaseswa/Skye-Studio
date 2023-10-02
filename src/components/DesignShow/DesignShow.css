@@ -1,0 +1,90 @@
+.headDesign{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70vw;
+    height: 50px;
+}
+.headDesign .allText{
+    
+    height: 30px;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+.headDesign .uploadDesign{
+    height: 35px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: small;
+    border-radius: 7px;
+background-color: 
+#19D16F;
+color: #000000;
+translate: transform 3s ease;
+cursor: pointer;
+}
+.ViewDesign{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+}
+.headDesign .uploadDesign:hover{
+    transform: scale(1.05);
+    
+}
+
+.OneView{
+height: 260px;
+width: 300px;
+padding: 7px;
+margin: 12px;
+background-color: #ffffff;
+border-radius: 12px;
+box-shadow: 1px 1px 1px 1px #bbb9b9;
+/* overflow-y: scroll; */
+
+
+}
+.OneView .ViewImage{
+    height: 170px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    padding: 4px;
+}
+.OneView .NameView{
+    height: 30px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+.OneView .ViewButton{
+    height: 40px;
+   
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+.OneView .ViewButton button{
+    height: 35px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: small;
+    width: 110px;
+    color: #fff;
+}
+
+.ViewImage img{
+    height: 170px;
+    width: 280px;
+    background-color: cover;
+}

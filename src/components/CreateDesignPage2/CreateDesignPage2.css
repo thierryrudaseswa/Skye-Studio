@@ -1,0 +1,196 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.schedule {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  outline: none;
+  text-decoration: none;
+}
+.schedule p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  height: 45px;
+  width: 200px;
+  border-radius: 20px;
+  background-color: #00ccfd;
+  font-weight: bold;
+}
+.schedule button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  height: 45px;
+  width: 200px;
+  border-radius: 20px;
+  background-color: #00ccfd;
+  font-weight: bold;
+}
+.MainCreateDp {
+  /* height: 100vh;
+    width: 100vw; */
+  /* display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000; */
+  box-shadow: 2px 2px 2px 2px #fff;
+  padding: 12px;
+}
+.main3CreateDp {
+  height: 70vh;
+  width: 80vw;
+  border-radius: 12px;
+  background-color: #fff;
+}
+.headDp {
+  height: 16vh;
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+}
+.headDp .headinput {
+  width: 22vw;
+  height: 8vh;
+  background-color: #fff;
+  gap: 12px;
+}
+.headDp .headinput .options {
+  height: 8vh;
+  width: 22vw;
+  background-color: rgb(255, 255, 255);
+  font-size: larger;
+  font-weight: bolder;
+}
+.middleDp {
+  height: 35vh;
+
+  /* background-color: rgb(10, 77, 201); */
+  padding: 12px;
+}
+.headDp p {
+  font-size: x-large;
+  font-weight: bolder;
+  background-color: #fff;
+}
+.middleDp input {
+  width: 42vh;
+  height: 9vh;
+}
+.firstMiddle {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: rgb(14, 152, 226); */
+  width: 78vw;
+  height: 12vh;
+  align-items: center;
+}
+
+.firstMiddle .begin p {
+  font-size: large;
+  font-weight: bolder;
+}
+.firstMiddle .begin input {
+  height: 8vh;
+  width: 32vw;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #ecdcdc;
+}
+.firstMiddle .inputBegin2 input {
+  height: 10vh;
+  width: 32vw;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #ecdcdc;
+  font-size: large;
+}
+.secondMiddle {
+  width: 78vw;
+  height: 12vh;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.secondMiddle input {
+  width: 32vw;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #ecdcdc;
+  display: flex;
+}
+
+.secondMiddlebottom {
+  height: 10vh;
+  background-color: rgb(255, 255, 255);
+  width: 78vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.secondMiddlebottom input {
+  height: 8vh;
+  width: 20vw;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #ecdcdc;
+}
+/* .secondMiddlebottom input:nth-child(2){
+    height: 15vh;
+    background-color: aqua;
+} */
+.inputbottom2 {
+  background-color: rgb(255, 255, 255);
+  height: 15vh;
+  width: 32vw;
+  position: relative;
+}
+.choose {
+  background-color: #9ca5b2;
+  border: none;
+  color: #000;
+  font-size: 0.6rem;
+  width: fit-content;
+  padding: 0 0.4rem;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 1rem 0;
+}
+
+.savebtn {
+  text-align: center;
+  margin-top: 0.5rem;
+}
+.savebtn button {
+  width: fit-content;
+  height: fit-content;
+  padding: 0.3rem 0.5rem;
+  color: #fff;
+  font-size: 0.7rem;
+  border: none;
+  margin: 0 0.7rem;
+}
+
+.savebtn button:first-child {
+  background-color: #1d8cfb;
+}
+.savebtn button:last-child {
+  background-color: #19d16f;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #000;
+  background-color: transparent;
+
+  padding: 0;
+  border-radius: 0;
+}

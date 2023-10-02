@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+  background-color: 
+  #f0eef8;
+}
+.main3{
+    display: flex;
+    /* background-color: aqua; */
+    width: 100vw;
+    height: 100vh;
+}
+.sidebar{
+flex: 1;
+width: 90vh;
+
+display: flex;
+justify-content: center;
+padding-top:8px ;
+
+    
+}
+.middle{
+    flex: 3;
+    
+}
+.topbar{
+    height: 23vh;
+    background-color: #fff;
+    
+    
+}
+.middle{
+    height: 77vh;
+   
+}
+

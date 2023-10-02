@@ -1,0 +1,266 @@
+.topMiddle{
+    height: 35px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+  
+
+}
+.topMiddle p{
+    
+    padding-left: 20px;
+    color: #1D8CFB;
+    margin-bottom: 5px;
+    font-size: small;
+}
+.OutLine{
+    height: 4px;
+    background-color: 
+    #C6C2DE;
+}
+.inLine{
+    width: 48px;
+    height: 4px;
+    background-color:#1D8CFB;
+}
+
+.search{
+height: 60px;
+background-color: #fff;
+display: flex;
+align-items: center;
+
+border-top-right-radius: 7px;
+border-top-left-radius: 7px;
+
+
+}
+.search .search2{
+    display: flex;
+position: relative;
+align-items: center;
+background-color: 
+#F9F9F9;
+left: 200px;
+width: 350px;
+height: 40px;
+border: 1px solid #C6C2DE;
+padding: 5px;
+}
+.search .search2 .input2 .inputText2{
+    text-decoration: none !important;
+    width: 220px;
+    height: 40px;
+    background-color:#F9F9F9;
+}
+.search .search2 .icon{
+    font-size: xx-large;
+   
+}
+.channels{
+    display: flex;
+    align-items: center;
+    height: 38px;
+    font-weight: bolder;
+    font-size: small;
+}
+.checkbox{
+    height: 30px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+}
+.checkbox input{
+    width: 18px;
+    
+    
+    border: 2px solid;
+}
+.channel{
+    width: 130px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.posttitle{
+    width: 130px;
+    height: 30px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+.status{
+    width: 160px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.caption{
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+.hashtags{
+    width: 120px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    width: 140px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.channelsFirst{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    height: 50px;
+    background-color: #fff;
+    font-weight: bolder;
+    font-size: small;
+    /* background-color: #1D8CFB; */
+    border-bottom: 1px solid  #C6C2DE;
+    padding-top: 12px;
+    transition: transfrom 0.3s ease;
+}
+.channelsFirst:hover{
+    transform: scale(1.05);
+    border-radius: 12px;
+    background-color: #C6C2DE;
+}
+.channelImage{
+    width: 130px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.postText{
+    width: 150px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+ .statusPosted{
+    width: 160px;
+    height: 26px;
+    padding-top: 14px;
+    
+    position: relative;
+    
+}
+
+.statusPosted div {
+    text-align: center;
+    position: relative;
+    top: -.7rem;
+    
+}
+
+.statusPosted div:nth-child(1) {
+    list-style-type: disc;
+    color: green;
+    background-color: #CDFFCD;
+    width: 80px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    gap: 10px;
+    border-radius: 12px;
+}
+
+.statusPosted div:nth-child(1)::before {
+  content:"\2022" ;
+ vertical-align: middle;
+font-size: 2rem;
+}
+.paraStatus{
+    /* background-color: aqua; */
+    margin-top: 3px ;
+    color: 
+    #828282;
+}
+
+.captionText{
+    width: 160px;
+    height: 30px;
+    display: flex;
+   align-items: center;
+   padding: 15px 0px;
+   
+   
+}
+.hashtagsText{
+    width: 120px;
+    height: 30px;
+    padding-left: 30px ;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.imageView{
+    width: 130px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.captionText p{
+    font-size: smaller;
+    font-weight: bold;
+
+}
+.hashtagsText p:nth-child(1){
+    display: flex;
+    justify-content: center;
+    width: 80px;
+}
+.hashtagsText p:nth-child(2){
+    display: flex;
+    justify-content: center;
+    width: 80px;
+}
+
+.imageView .viewImage{
+    color: green;
+    background-color: #CDFFCD;
+    height: 20px;
+    width: 100px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); 
+    gap: 10px; 
+  }
+  
+  .icon-column {
+    text-align: center; 
+  }
+  
+  .channelistData{
+padding: 0px;
+
+   ;
+  }
+.channelImage img{
+    height: 30px;
+    width: 30px;
+}

@@ -1,0 +1,75 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   }
+
+    .shadow {
+        width: 35vw;
+        height: 70vh;
+         background-color:#0a0a0d97;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         background-color:#fff;
+    }
+    .mainCreateDp4{
+     gap: 15px ;
+     width: 40vw;
+     height: 10vh;
+     display: flex;
+     align-items: center;
+     /* background-color: aqua; */
+    }
+    .mainCreateDp4 button:nth-child(2){
+     background-color: black;
+     color: beige;
+    }
+    .mainCreateDp4 button:nth-child(1){
+    
+     color: #000;
+    }
+
+    .portal {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         
+         width: 30vw;
+         height: 14vh;
+         padding: .7rem .4rem;
+         flex-direction: column;
+    }
+    .portal img {
+         height: auto;
+         width: 90%;
+         aspect-ratio: 1;
+         
+    }
+
+    .portal div  {
+         margin-top: 1rem;
+         display: flex;
+         gap: 2rem;
+         
+    }
+
+    @media (max-width: 680px) {
+         .portal {
+              width: 300px;
+              height: auto;
+         }
+    }
+    .portal div a {
+        color: #fff;
+        text-decoration: none;
+        padding: .7rem;
+        border-radius: 7%;
+    }
+
+    .portal div a:nth-child(1) {
+         background-color: rgb(43, 92, 216)
+    }
+    .portal div a:nth-child(2) {
+         background-color: rgb(26, 28, 33)
+    }
