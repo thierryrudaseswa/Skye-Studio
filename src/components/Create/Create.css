@@ -1,0 +1,210 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+form {
+  height: 82vh;
+  width: 80vw;
+  display: flex;
+  padding: 12px;
+  box-shadow: 3px 3px 3px 3px rgba(255, 255, 255, 255);
+  border-radius: 22px;
+  background-color: #fff;
+}
+.rightBI {
+  flex: 1;
+  padding-left: 12px;
+}
+.rightBI .headBI {
+  height: 40px;
+  display: flex;
+  font-weight: bolder;
+  font-size: larger;
+  align-items: center;
+}
+.leftBI {
+  flex: 1;
+}
+.rightBI .InputBI {
+  height: 65vh;
+  display: block;
+  padding-top: 12px;
+}
+.rightBI .InputBI input:nth-child(1) {
+  height: 65px;
+  width: 35vw;
+  text-decoration: none;
+  outline: none;
+  border-bottom: 2px solid #555555;
+  letter-spacing: 0.5px;
+}
+
+.rightBI .InputBI input:nth-child(2) {
+  height: 65px;
+  width: 35vw;
+  text-decoration: none;
+  outline: none;
+  border-bottom: 2px solid #555555;
+  letter-spacing: 0.5px;
+}
+.rightBI .InputBI input:nth-child(3) {
+  height: 65px;
+  width: 35vw;
+
+  text-decoration: none;
+  outline: none;
+  border-bottom: 2px solid #555555;
+  letter-spacing: 0.5px;
+}
+.rightBI .InputBI input:nth-child(4) {
+  height: 80px;
+  width: 35vw;
+  text-decoration: none;
+  outline: none;
+  border-bottom: 2px solid #555555;
+  letter-spacing: 0.5px;
+}
+.custom-file-upload {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+
+  cursor: pointer;
+  text-align: center;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-position: 10px center;
+}
+
+.custom-file-upload input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload span {
+  padding-left: 40px;
+}
+
+.headleft {
+  height: 20vh;
+  position: relative;
+  left: 200px;
+  width: 22vw;
+  padding-top: 12px;
+}
+.headleft .inputcat input {
+  height: 8vh;
+  margin-top: 12px;
+  border-radius: 2px;
+  width: 22vw;
+  border: 3px solid #949494;
+}
+.downout {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+}
+.badge {
+  height: 6vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+  gap: 12px;
+  margin-top: 12px;
+}
+.badge span {
+  height: 4vh;
+  background-color: #cdffcd;
+  text-decoration: none;
+  padding-left: 8px;
+  padding-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  border-radius: 12px;
+  font-size: small;
+  color: #007f00;
+}
+
+.inputLEft {
+  height: 35vh;
+  margin-top: 12px;
+  padding-left: 18px;
+}
+.inputLEft input {
+  height: 65px;
+  width: 35vw;
+  text-decoration: none;
+  outline: none;
+  border-bottom: 2px solid #555555;
+  letter-spacing: 0.5px;
+  padding-left: 12px;
+}
+.bottomLeft {
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonleft button {
+  background-color: #9ca5b2;
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  border-radius: 10px;
+  height: 40px;
+  width: 17vw;
+}
+.belowbut {
+  display: flex;
+  gap: 12px;
+}
+.belowbut .colorsChosen div:nth-child(1) {
+  height: 20px;
+  width: 20px;
+  background-color: #ff781f;
+}
+.belowbut .colorsChosen div:nth-child(2) {
+  height: 20px;
+  width: 20px;
+  background-color: #3eff1f;
+}
+.belowbut .colorsChosen div:nth-child(3) {
+  height: 20px;
+  width: 20px;
+  background-color: #1f28ff;
+}
+.belowbut .colorsChosen {
+  display: flex;
+  gap: 3px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.belowbut p {
+  font-weight: bold;
+  font-size: small;
+  margin-top: 12px;
+}
+.submitbutton {
+  height: 11vh;
+  width: 22vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.submitbutton button {
+  width: 14vw;
+  height: 6vh;
+  background-color: #1d8cfb;
+  font-weight: bolder;
+  color: #fff;
+  letter-spacing: 0.8px;
+  font-size: large;
+  border-radius: 8px;
+}

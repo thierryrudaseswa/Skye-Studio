@@ -6,29 +6,32 @@ import SignUp from "./pages/signup/SignUp";
 import Login from "./pages/login/Login";
 import Forgot from "./pages/forgot/Forgot";
 import Category from "./components/Category/Category";
-import Home from "./pages/Home/Home";
-import ImageDownLoad from "./components/ImagedownLoad/ImageDownLoad";
+import Create22 from "./components/Create/Create";
 import Designs from "./pages/Designs/Designs";
-import GenerateDesign from "./pages/GenerateDesign/GenerateDesign";
-import CreateDesignPage from "./components/CreateDesignPage/CreateDesignPage";
+
 import Shoe from "./components/Shoe/Shoe";
-import CreatePage from "./components/createPage/createPage";
+
 import CreateDesignPage2 from "./components/CreateDesignPage2/CreateDesignPage2";
 import BasicModal from "./components/modal/modal";
-import { Button } from "@mui/material";
+import ChooseCategory from "./pages/ChooseCategory/ChooseCategory";
+import ChooseCategory2 from "./pages/ChooseCategory2/ChooseCategory2";
+
+
 
 function App() {
   return (
     <div className="App">
       <Router>
      <Routes>
-     <Route exact path="/" element={<Home/>} />
+     
         <Route  exact path="/login" element={<Login/>} />
         <Route exact path="/signup" element={<SignUp/>} />
         <Route exact path="/forgot" element={<Forgot/>} />
         <Route exact path="/design" element={<Designs/>} />
-        <Route exact  path ="/imageDownload" element={<ImageDownLoad/>} />
-        <Route exact path="/generateDesign" element={<GenerateDesign/>} />
+       <Route exact path="/Choose" element={<ChooseCategory/>} />
+        <Route exact path="/Choose2" element={<ChooseCategory2/>} />
+        <Route exact path="/123" element={<Category />} />
+        <Route exact path="/create" element={<Create22/>}/>
      </Routes>
       </Router>   
     </div>

@@ -1,75 +1,179 @@
-html {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-   }
+     
+.SecondGenerateDesgin{
+     width: 85vw;
+     height: 85vh;
+     display: flex;
+     border-radius: 32px;
+     padding: 12px;
+     background-color: #fff;
+     gap: 35px;
+}
+.rightSecondDes{
+     flex: 1;
+}
+.leftSecondDes{
+     flex: 1;
+     
+}
+.headright{
+     height: 15vh;
+     padding: 12px;
+}
+     .headright p{
+          height: 50px;
+          display: flex;
+          align-items: center;
+          font-weight: bolder;
+          font-size: large;
+     }
+     .inputSecDes input{
+          height: 70px;
+          width: 40vw;
+          text-decoration: none;
+          outline: none;
+          border-bottom: 2px solid #555555;
+          letter-spacing: 0.5px;
+          padding: 12px;
+          /* background-color: #1D8CFB; */
+          box-shadow: 2px 2px 2px 2px #fff;
+          margin-bottom: 4px;
+     }
+     .inputSecDes input::placeholder{
+          font-weight: bolder;
+          font-size: large;
+     }
+     .inputSecDes .Browser{
+          display: flex;
+     }
+     .inputSecDes .Browser input:nth-child(1){
+ /* background-color: #3EFF1F; */
+          height: 15vh;
+          width: 30vw;
+          box-shadow: 2px 2px 2px 2px #fff;
+     }
+     .inputSecDes .Browser input:nth-child(1){
+          /* background-color: #6fdda1; */
+                   height: 15vh;
+                   width: 30vw;
+                   display: flex;
+                   justify-content: center;
+                   align-items: end;
+              }
+              .inputSecDes .Browser input:nth-child(2){
+               /* background-color: #d86fdd; */
+                        height: 15vh;
+                        width: 10vw;
+                        display: flex;
+                      justify-content: center;
+                      align-items: center    ;
+                   }
+.headInput{
+     height: 20vh;
+     position: relative;
+     left: 200px;
+     width: 22vw;
+     padding-top: 12px;
+}
+.headInput input{
+     height: 8vh;
+     padding-left: 12px;
 
-    .shadow {
-        width: 35vw;
-        height: 70vh;
-         background-color:#0a0a0d97;
-         display: flex;
-         align-items: center;
-         justify-content: center;
-         background-color:#fff;
-    }
-    .mainCreateDp4{
-     gap: 15px ;
-     width: 40vw;
-     height: 10vh;
+border-radius: 2px;
+width: 22vw;
+border: 3px solid 
+#949494;
+}
+.downout{
+     position: absolute;
+     top: 50px;
+     right: 13px;
+}
+.inputrightDes input{
+     height: 70px;
+     width: 35vw;
+     text-decoration: none;
+     outline: none;
+     border-bottom: 2px solid #555555;
+     letter-spacing: 0.5px;
+     padding-left: 15px;
+}
+.colorsRight{
+     display: flex;
+     height: 15vh;
+}
+.colorsChosen2{
+     display: flex;
+     gap: 3px;
+}
+.colorsChosen2 div:nth-child(1){
+     height: 20px;
+     width: 20px;
+     background-color: #FF781F;
+     cursor: pointer;
+}
+.colorsChosen2 div:nth-child(2){
+     height: 20px;
+     width: 20px;
+     background-color: #3EFF1F;
+     cursor: pointer;
+}
+.colorsChosen2 div:nth-child(3){
+     height: 20px;
+     width: 20px;
+     background-color:#1F28FF;
+     cursor: pointer;
+}
+.oneSide{
+     height: 16vh; 
+     width: 24vw;
      display: flex;
      align-items: center;
-     /* background-color: aqua; */
-    }
-    .mainCreateDp4 button:nth-child(2){
-     background-color: black;
-     color: beige;
-    }
-    .mainCreateDp4 button:nth-child(1){
-    
-     color: #000;
-    }
+     justify-content: end;
+     padding-right: 12px;
+     gap: 12px
+     ;
+}
+.secSide{
+     display: flex;
+     width: 12vw;
+     height: 10vh;
+     gap: 5px;
+     justify-content: center;
+}
+.secSide p{
+     font-weight: 300;
+     height: 9vh;
+     font-size: 16px;
+     flex: 1;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+}
+.secSide img{
+     flex: 1;
+     background-size: cover;
+     background-repeat:no-repeat;
 
-    .portal {
-         display: flex;
-         justify-content: center;
-         align-items: center;
-         
-         width: 30vw;
-         height: 14vh;
-         padding: .7rem .4rem;
-         flex-direction: column;
-    }
-    .portal img {
-         height: auto;
-         width: 90%;
-         aspect-ratio: 1;
-         
-    }
-
-    .portal div  {
-         margin-top: 1rem;
-         display: flex;
-         gap: 2rem;
-         
-    }
-
-    @media (max-width: 680px) {
-         .portal {
-              width: 300px;
-              height: auto;
-         }
-    }
-    .portal div a {
-        color: #fff;
-        text-decoration: none;
-        padding: .7rem;
-        border-radius: 7%;
-    }
-
-    .portal div a:nth-child(1) {
-         background-color: rgb(43, 92, 216)
-    }
-    .portal div a:nth-child(2) {
-         background-color: rgb(26, 28, 33)
-    }
+}
+.generateSub{
+     height: 12vh;
+     width: 28vw;
+     display: flex;
+align-items: center;
+justify-content:center;
+}
+.generateSub Button{
+height: 7vh;
+width: 15vw;
+display: flex;
+align-items: center;
+justify-content:center;
+font-weight: bolder;
+font-size: large;
+background-color: 
+#1D8CFB;
+color: #fff;
+border-radius: 12px;
+cursor: pointer;
+}

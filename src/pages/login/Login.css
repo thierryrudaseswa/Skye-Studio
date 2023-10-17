@@ -1,6 +1,7 @@
 
 *{
     padding: 0px;
+    box-sizing: border-box;
 }
 .mainLogin {
   background-color: #1D8CFB;
@@ -8,7 +9,6 @@
   display: flex;
   position: relative;
   overflow: hidden;
-  /* justify-content: center; */
 }
 #img1{
     height: 450px;
@@ -22,42 +22,40 @@
     border-radius: 25px;
 }
 .formLogin{
-    height:430px;
+    height:75vh;
     width: 550px;
     /* background-color: #d28f6d; */
     background-color: 
     #F6FBF9;
     margin: 40px auto;
     z-index: 1; 
-    padding: 3px 0px;
     border-radius: 20px;
     
 }
 .headLogin{
-    /* background-color: #1D8CFB; */
+   
     width: full;
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 500;
-    font-size: 20px;
+    font-weight:bolder;
+    font-size: x-large;
     letter-spacing: 1px;  
 }
 .text{
-    /* background-color: #da500b; */
     display: flex;
     justify-content: center;
     color: rgb(19, 18, 18);
 }
 .inputsLogin{
-    height: 120px;
+   height: 35vh;
     width: 445px;
-    /* background-color: #6ae990; */
     display: flex;
     flex-direction: column;
    align-items: center;
-   padding: 40px 0px;
+   padding: 40px;
+   margin-left: 50px;
   
 
 }
@@ -71,12 +69,8 @@
 }
 .buttonLogin{
     width:full;
-    /* height: 52px; */
-    /* background-color: #fc25ee; */
     display: flex;
     justify-content: center;
-    /* align-items: center; */
-
 }
 .buttonLogin button{
     background-color: #1D8CFB;
@@ -89,8 +83,6 @@
     cursor: pointer;
 }
 .already{
-   
-    /* background-color: #fff; */
     height: 50px;
     margin-top: 10px;
     display: flex;
@@ -98,8 +90,19 @@
     gap: 9px;
 } 
 span{
-   text-decoration: underline;
+   text-decoration: none;
+   outline: none !important;
    cursor: pointer;
+}
+.Forgotlink{
+    height: 5vh;
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    color: 
+    #32403B;
 }
 #img2{
     height: 600px;
@@ -112,4 +115,9 @@ span{
     background-color: 
     #E0E0E0;
     border-radius: 25px;
+}
+
+
+.buttonLogin button :link{
+    text-decoration: none;
 }

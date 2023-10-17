@@ -1,6 +1,7 @@
 
 *{
     padding: 0px;
+    box-sizing: border-box;
 }
 .mainSign{
   background-color: #1D8CFB;
@@ -34,38 +35,43 @@
     
 }
 .headSign{
-    /* background-color: #1D8CFB; */
     width: full;
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 500;
-    font-size: 20px;
-    letter-spacing: 1px;  
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.7px;
+    font-weight: bolder;
+    font-size: x-large; 
 }
 .text{
-    /* background-color: #da500b; */
     display: flex;
     justify-content: center;
-    color: rgb(19, 18, 18);
+    color: rgb(31, 30, 30);
+
 }
 .inputSign{
     height: 300px;
     width: 445px;
-    /* background-color: #6ae990; */
+    position: relative;
     display: flex;
     flex-direction: column;
    align-items: center;
    padding: 40px 0px;
-  
+
 
 }
 .inputSign input{
     width: 320px;
-    height: 52px;
+    height: 90px;
     padding: 0px 30px;
     border-radius: 8px;
+    background-color: #f0f0f5;
+    box-shadow: 2px 2px 2px #c5c2c2;
+}
+.inputSign input:focus{
+    outline: none;
 }
 .buttonSign{
     width:full;
@@ -95,7 +101,7 @@
     justify-content: center;
     gap: 9px;
 } 
-.alreadySign span{
+.alreadySign  span Link{
    text-decoration: none;
    outline: none;
    cursor: pointer;
@@ -111,4 +117,10 @@
     background-color: 
     #E0E0E0;
     border-radius: 25px;
+}
+.iconSign{
+position: absolute;
+bottom: 22%;
+left: 85%;
+cursor: pointer;
 }

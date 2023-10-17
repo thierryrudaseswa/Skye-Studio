@@ -41,7 +41,7 @@ const CreateDesignPage2 = () => {
             </div>
             <div className="secondMiddle">
               <input type="number" placeholder="Phone Number (optional)" />
-              <input type="email" placeholder="Email adrress(pptional)" />
+              <input type="email" placeholder="Email adrress(optional)" />
             </div>
             <div className="secondMiddle">
               <input type="file" accept="image/*" />

@@ -1,10 +1,10 @@
 import React from "react";
 import "./TopBar.css";
 import { FaChevronDown } from "react-icons/fa";
-// import CreateDesignPage2 from "../CreateDesignPage2/CreateDesignPage2";
 import CreateDesignPage from "../CreateDesignPage/CreateDesignPage";
 import Shoe from "../Shoe/Shoe";
 import CreateDesignPage2 from "../CreateDesignPage2/CreateDesignPage2";
+import Category from "../Category/Category";
 
 const TopBAr = ({ isDesign, isCreateDesignPage, isGenerate }) => {
   return (
@@ -13,7 +13,6 @@ const TopBAr = ({ isDesign, isCreateDesignPage, isGenerate }) => {
         {isCreateDesignPage && <CreateDesignPage />}
         {isDesign && <Shoe />}
         {isGenerate && <CreateDesignPage2 />}
-
         <div className="profile">
           <div className="prof">
             <div className="image">
@@ -25,7 +24,7 @@ const TopBAr = ({ isDesign, isCreateDesignPage, isGenerate }) => {
             </div>
 
             <div className="icon">
-              <FaChevronDown />
+            <Category />
             </div>
           </div>
         </div>

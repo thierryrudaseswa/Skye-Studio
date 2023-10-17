@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.MainChooseCat{
+    background-color: #F2F6FA;
+    box-sizing: border-box;
+}
+
+.topChooseCat{
+    display: flex;
+    height: 20vh;
+}
+.topChooseCat .lefTopCat{
+    flex: 3;
+    display: flex;
+    padding: 5px 20px;
+}
+.topChooseCat .rightTopCat{
+    flex: 8;
+    display: flex;
+    position: relative;
+}
+.lefTopCat .lefTopCat2 img{
+    width: 194px;
+    height: 60px;
+    
+}
+.lefTopCat .lefTopCat2 button{
+    height:8vh;
+    width: 12vw;
+    margin-left: 50px;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: small;
+    letter-spacing: 0.7px;
+    border-radius: 10px;
+}
+.rightTopCat{
+   
+  position: relative;
+}
+.rightTopCat .right2TopCat2{
+    height: 18vh;
+    width: 45vw;
+    position: absolute;
+    top: 20px;
+}
+.rightTopCat .right2TopCat2 h2{
+    padding-left: 120px ;
+    height: 2.4rem;
+}
+.rightTopCat .right2TopCat2 h5{
+    height: 2rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 25rem;
+   font-size: large;
+   font-weight: bolder;
+}
+.rightTopCat .right2TopCat2 p{
+    height: 2.3rem;
+}
+.right2TopCat2 .butonFilter2{
+    height:8vh;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.right2TopCat2 .butonFilter2 button:nth-child(1){
+    height: 5vh;
+    cursor: pointer;
+    width: 8vw;
+    background-color: 
+    #1D8CFB;
+    font-weight: bold;
+    color: #fff;
+}
+.right2TopCat2 .butonFilter2 button{
+    background-color: #00000066;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+}
+.headChoose{
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 12px;
+}
+.headChoose h{
+    position: absolute;
+    left: 60px;
+    font-weight: bolder;
+    font-size: x-large;
+    text-decoration: underline;
+}
+.headChoose span{
+    position: absolute;
+    left: 360px;
+    color: #1D8CFB;
+    font-weight: 300;
+    text-decoration: none;
+    outline: none;
+    font-size: large;
+}
+.ImageChoose{
+    height: 40vh;
+    padding-left: 12px;
+    display: flex;
+    } 
+.ViewDesign2{
+    display: flex;
+    gap: 40px;
+    overflow: hidden; 
+    /* background-color: #000000;   */
+}
+.OneView2{
+height: 240px;
+width: 250px;
+padding: 7px;
+margin: 12px;
+border-radius: 12px;
+box-shadow: 2px 2px 2px 2px #bbb9b9;
+background-color: #ffffff; 
+}
+.OneView2 .ViewImage2{
+    height: 160px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    padding: 4px;
+}
+.OneView2 .NameView2{
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+.OneView2 .ViewButton2{
+    height: 40px;
+     display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+.OneView2 .ViewButton2 button{
+    height: 35px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: small;
+    width: 110px;
+    color: #fff;
+}
+
+.ViewImage2 img{
+    height: 150px;
+    width: 240px;
+}
+.bottomChooseCat{
+    margin-top: 12px;
+}

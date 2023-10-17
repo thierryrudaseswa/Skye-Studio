@@ -1,34 +1,19 @@
 import React from "react";
 import "./SideBar.css";
 import { FiLogOut } from 'react-icons/fi';
+import Create22 from "../Create/Create";
 
 function SideBar() {
   return (
     <div className="mainSidebar">
-      <div className="main2SideBar">
+      <div className="main2SideBar22">
         <div className="brand">
         <img src="/images/logo.png" alt="" />
         </div>
         <div className="menus">
-          <div className="menu">
-            <img src="/images/Calendar.png" alt="" />
-            <p>Schedule Post</p>
-          </div>
-          <div className="menu">
-            <img src="/images/Chat.png" alt="" />
-            <p>My Design</p>
-          </div>
-          <div className="menu">
-            <img src="/images/Activity.png" alt="" />
-            <p>Channels</p>
-          </div>
-          <div className="menu">
-            <img src="/images/Wallet.png" alt="" />
-            <p>Pricing</p>
-          </div>
+         <Create22 />
         </div>
-
-        <div className="account">
+<div className="account">
           <div className="head2">FREE Account</div>
 
           <ul>
@@ -50,17 +35,17 @@ function SideBar() {
             <div className="imagelogo">
             <img src="/images/Frame 440.png" alt="" />
             </div>
-          </div>
-
-
-        </div>
-        <div className="logout">
-          <div className="logout">LogOut</div>
+            <div className="logout3">
+         <p>LogOut</p>
           <div className="logoutIcon">
-            
             < FiLogOut />
           </div>
         </div>
+          </div>
+
+
+        </div>
+       
       </div>
     </div>
   );

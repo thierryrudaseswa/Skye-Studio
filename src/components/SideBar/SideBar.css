@@ -1,13 +1,23 @@
 .mainSidebar{
- width: 80%;
- height: 99%;
-background-color: #fff;
- border-radius: 12px;
- 
+  position: fixed;
+  align-items: center;
+  width: 38vh;
+  height: 97vh;
+  border-radius: 12px;
+ background-color: hsl(0, 0%, 100%);
+ margin-left: 10px;
+ margin-right: 5px;
 }
+.main2SideBar22{
+    position: fixed;
+   width: 36vh;
+   height: 97vh;
+   border-radius: 12px;
+  
+  padding-left: 12px;
+  }
 .brand{
-    height: 12vh;
-   
+    height: 10vh;
     display: flex;
     align-items: center;
     padding-left:  28px;
@@ -18,22 +28,19 @@ background-color: #fff;
    
 }
 .menus{
-    height: 24vh;
-  
-    
+    height: 15vh;
 padding-left: 10px;
 padding-top: 28px;
     gap: 2px;
 }
 .account{
-    height: 10vh; 
+    height: 19vh; 
     margin: 4px;
      padding: 12px;
-    
 }
 .upgrade{
     height: 35vh;
-    background-color: #d5d7d9;
+   background-color: #F2F6FA;
     width: 200px;
     margin-left:20px;
     border-radius: 12px;
@@ -47,13 +54,8 @@ padding-top: 28px;
     padding-left: 28px;
     margin-top: 2px;
     width: 180px;
-    transition: transform 0.3s ease;
     border-radius: 7px;
     cursor: pointer;
-}
-.menu:hover{
-    background-color: #ebeaea ;
-    transform: scale(1.05);
 }
 .menu p{
     font-weight: bolder;
@@ -64,21 +66,18 @@ padding-top: 28px;
     color: aqua;
     font-weight:bolder;
     padding-left: 15px;
+    margin-bottom: 12px;
     
 }
 ul{
    height: 18vh;
-   
     padding-left: 12px;
     margin-left: 8px;
 }
 li{
-   
-   /* font-size: large; */
   font-weight: bold;
   font-size: small;
- 
-   cursor: pointer;
+ cursor: pointer;
    width: 160px; 
    padding-left: 12px;
    color: 
@@ -86,11 +85,10 @@ li{
 }
 
 .upgrade2{
-    
-    height: 220px;
-    width: 250px;
-    padding: 15px;
+    height:50vh;
+    width: 220px;
     position: relative;
+    left: 0px;
 
 }
 .headupgrade{
@@ -137,23 +135,30 @@ li{
 .imagelogo{
 
     position: absolute;
-    top: 100px;
-    left: 54px;
+    top: 110px;
+    left: 30px;
 }
 .imagelogo img{
-    height: 120px;
-    left: 22px;
-    /* width: 120px; */
+    height: 160px;
+   
 }
-.logout{
-    height: 18px;
+.logout3{
+    height: 8vh;
+    position: relative;
+    top: 72px;
     display: flex;
     justify-content: space-between;
-    padding: 15px;align-items: center;
-    font-weight: bold;
-    font-size: small;
-letter-spacing: 0.7px;
+    align-items: end;
+    padding-left: 10px;
+    padding-right: 10px;
 }
- button .buttonLogOut{
-    background-color: #fff;
- }
+.logout3 p{
+    font-size:large ;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.logout3 .logoutIcon{
+    cursor: pointer;
+}
+
+ 

@@ -10,7 +10,6 @@ const CreateDesignPage = () => {
   const handleClose = () =>setOpen(false);
 
   return (
-    // <div className="MainCreateDp">
     <>
 
       <div className="mainCreateDp4">

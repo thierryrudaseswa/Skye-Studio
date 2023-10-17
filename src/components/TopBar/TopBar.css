@@ -7,7 +7,9 @@
     padding-left: 12px;
     background-color: 
     #f0eef8;
+    /* background-color: #00CCFD; */
     display: flex;
+
     
 
 }
@@ -91,17 +93,17 @@ height: 40px;
 .box{
     display: flex;
     height: 80px;
-    width: 300px;
+    width: 330px;
     padding-left: 10px;
      box-shadow: 2px 2px 2px 2px #d9d1d1;
-     background-color: #fff;
-    transition: transform 0.3s ease;
+     background-color: #fff
+    /* transition: transform 0.3s ease; */
 
 }
-.box:hover{
+/* .box:hover{
     transform: scale(1.06);
     margin-left: 12px;
-}
+} */
 .box .boxLeft{
     flex: 2;
     background-color: #fff;
