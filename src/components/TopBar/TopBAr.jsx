@@ -12,7 +12,7 @@ const TopBAr = ({ isDesign, isCreateDesignPage, isGenerate }) => {
       <div className="above">
         {isCreateDesignPage && <CreateDesignPage />}
         {isDesign && <Shoe />}
-        {isGenerate && <CreateDesignPage2 />}
+        {/* {isGenerate && <CreateDesignPage2 />} */}
         <div className="profile">
           <div className="prof">
             <div className="image">

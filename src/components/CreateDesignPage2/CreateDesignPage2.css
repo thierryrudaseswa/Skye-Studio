@@ -17,7 +17,6 @@
   height: 45px;
   width: 200px;
   border-radius: 20px;
-  background-color: #00ccfd;
   font-weight: bold;
 }
 .schedule button {
@@ -146,12 +145,14 @@
     height: 15vh;
     background-color: aqua;
 } */
+
 .inputbottom2 {
   background-color: rgb(255, 255, 255);
   height: 15vh;
   width: 32vw;
   position: relative;
 }
+
 .choose {
   background-color: #9ca5b2;
   border: none;
@@ -193,4 +194,48 @@ input {
 
   padding: 0;
   border-radius: 0;
+}
+
+/* .secondMiddle input[type="file"]::file-selector-button {
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-left: 100px;
+  border: none;
+  background: #084cdf;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+} */
+
+.filebutton {
+ 
+  border: none;
+  background: #084cdf;
+  height: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+  width: min-content;
+  width: 10vw;
+}
+
+input[type="file"] {
+  display: none !important;
+}
+/* input[type="file"]::file-selector-button:hover {
+  background: #0d45a5;
+} */
+
+.uploadplace {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+  background-color: transparent;
 }

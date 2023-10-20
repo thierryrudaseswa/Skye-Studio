@@ -44,29 +44,33 @@
      }
      .inputSecDes .Browser{
           display: flex;
+         
      }
      .inputSecDes .Browser input:nth-child(1){
- /* background-color: #3EFF1F; */
+ /* background-color: #81b579; */
           height: 15vh;
           width: 30vw;
           box-shadow: 2px 2px 2px 2px #fff;
      }
-     .inputSecDes .Browser input:nth-child(1){
-          /* background-color: #6fdda1; */
-                   height: 15vh;
-                   width: 30vw;
-                   display: flex;
-                   justify-content: center;
+     /* .inputSecDes .Browser  input:nth-child(1){
+
+     height: 15vh;
+   width: 20vw;
+      display: flex;
+      justify-content: center;
                    align-items: end;
-              }
-              .inputSecDes .Browser input:nth-child(2){
-               /* background-color: #d86fdd; */
+                  
+              } */
+              /* .inputSecDes .Browser .uploadplace input:nth-child(1){
+          
                         height: 15vh;
-                        width: 10vw;
+                        margin-left: 10px;
                         display: flex;
                       justify-content: center;
                       align-items: center    ;
-                   }
+                      background-color: #3EFF1F;
+               
+                   } */
 .headInput{
      height: 20vh;
      position: relative;
@@ -177,3 +181,45 @@ color: #fff;
 border-radius: 12px;
 cursor: pointer;
 }
+.uploadedImage{
+     height: 13vh;
+     width: 12vw;
+     position: absolute;
+     bottom: 58px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     font-weight: bold;
+   }
+   .uploadedImage img{
+     height: 7vh;
+     width: 5vw;
+     background-color: #1D8CFB;
+   }
+
+   
+input[type="file"]::file-selector-button {
+     margin-right: 20px;
+     border: none;
+     margin-left: 93px;
+     margin-top: 10px;
+     background: #084cdf;
+     /* padding: 10px 20px; */
+     border-radius: 10px;
+     color: #fff;
+     cursor: pointer;
+     transition: background 0.2s ease-in-out;
+    
+    
+   }
+   
+   input[type="file"]::file-selector-button:hover {
+     background: #0d45a5;
+   }
+
+   input[type="file"] {
+     /* width: min-content; */
+     padding: 0;
+   }
+   

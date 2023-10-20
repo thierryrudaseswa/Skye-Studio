@@ -8,8 +8,17 @@ const CreateDesignPage2 = () => {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
+  const [image, setImage] = useState(null);
+
+  const handleImageUpload = (e) => {
+    const file = e.target.files[0];
+    if (file) {
+      const imageUrl = URL.createObjectURL(file);
+      setImage(imageUrl);
+    }
+  };
+
   return (
-    // <div className="MainCreateDp">
     <>
       <div className="schedule">
         <button onClick={handleOpen}>
@@ -44,13 +53,27 @@ const CreateDesignPage2 = () => {
               <input type="email" placeholder="Email adrress(optional)" />
             </div>
             <div className="secondMiddle">
-              <input type="file" accept="image/*" />
+              <label className="filebutton" htmlFor="file-upload2">
+                upload
+              </label>
+              <input
+                type="file"
+                style={{
+                  display: "none",
+                }}
+                id="file-upload2"
+                accept="image/*"
+              />
               <input type="text" placeholder="Websites" />
             </div>
           </div>
           <div className="bottomDp">
             <div className="secondMiddlebottom">
-              <input type="file" accept="image/*" />
+              <label className="filebutton" htmlFor="file-upload">
+                upload
+              </label>
+              <input type="file" id="file-upload" accept="image/*" />
+
               <div className="inputbottom2">
                 <button className="choose">Choose Your Main Color*</button>
 

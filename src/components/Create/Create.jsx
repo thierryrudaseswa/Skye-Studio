@@ -4,6 +4,7 @@ import { DownOutlined } from "@ant-design/icons";
 import Button from "@mui/material/Button";
 import BasicModal from "../modal/modal";
 import "../SideBar/SideBar";
+import "../Shoe/Shoe";
 
 const colors = {
   red: "#FF781F",
@@ -13,9 +14,18 @@ const colors = {
 
 const Create22 = () => {
   const [textColor, setTextColor] = useState("black");
+  const [image, setImage] = useState(null);
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
+
+  const handleImageUpload = (e) => {
+    const file = e.target.files[0];
+    if (file) {
+      const imageUrl = URL.createObjectURL(file);
+      setImage(imageUrl);
+    }
+  };
 
   const changeTextColor = (color) => {
     setTextColor(colors[color]);
@@ -70,14 +80,33 @@ const Create22 = () => {
                 placeholder="Call to Action*"
                 style={inputStyle}
               />
-              <label for="file-upload" className="custom-file-upload">
-                <span>Upload a File</span>
-                <input
-                  type="file"
-                  id="file-upload"
-                  placeholder="Upload a File"
-                />
-              </label>
+              <div className="container-file">
+                <div className="Browser">
+                  <input
+                    type="text"
+                    className="inputbro"
+                    placeholder="Upload Your Business Logo *"
+                    style={inputStyle}
+                  />
+
+                  {image && (
+                    <div className="uploadedImage">
+                      <p>preview:</p>
+                      <img src={image} alt="Uploaded" width="300" />
+                    </div>
+                  )}
+                </div>
+                <div className="file-container">
+                  <label className="filebutton" htmlFor="file-upload">
+                    Upload a file
+                  </label>
+                  <input
+                    id="file-upload"
+                    type="file"
+                    onChange={handleImageUpload}
+                  />
+                </div>
+              </div>
             </div>
           </div>
 

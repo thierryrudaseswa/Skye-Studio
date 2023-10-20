@@ -4,8 +4,8 @@ html {
   padding: 0;
 }
 form {
-  height: 82vh;
-  width: 80vw;
+  height: 85vh;
+  width: 88vw;
   display: flex;
   padding: 12px;
   box-shadow: 3px 3px 3px 3px rgba(255, 255, 255, 255);
@@ -31,7 +31,7 @@ form {
   display: block;
   padding-top: 12px;
 }
-.rightBI .InputBI input:nth-child(1) {
+.rightBI .InputBI input {
   height: 65px;
   width: 35vw;
   text-decoration: none;
@@ -39,32 +39,16 @@ form {
   border-bottom: 2px solid #555555;
   letter-spacing: 0.5px;
 }
-
-.rightBI .InputBI input:nth-child(2) {
-  height: 65px;
-  width: 35vw;
-  text-decoration: none;
-  outline: none;
-  border-bottom: 2px solid #555555;
-  letter-spacing: 0.5px;
-}
-.rightBI .InputBI input:nth-child(3) {
-  height: 65px;
-  width: 35vw;
-
-  text-decoration: none;
-  outline: none;
-  border-bottom: 2px solid #555555;
-  letter-spacing: 0.5px;
-}
-.rightBI .InputBI input:nth-child(4) {
+.rightBI .InputBI input:nth-child(5) {
   height: 80px;
   width: 35vw;
   text-decoration: none;
   outline: none;
   border-bottom: 2px solid #555555;
   letter-spacing: 0.5px;
+
 }
+
 .custom-file-upload {
   display: inline-block;
   padding: 10px 20px;
@@ -158,8 +142,8 @@ form {
   letter-spacing: 1px;
   font-weight: bolder;
   border-radius: 10px;
-  height: 40px;
-  width: 17vw;
+  height: 50px;
+  width: 20vw;
 }
 .belowbut {
   display: flex;
@@ -208,3 +192,40 @@ form {
   font-size: large;
   border-radius: 8px;
 }
+
+
+.container-file {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.file-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+
+.Browser {
+  display: flex;
+
+  /* width: 35vw; */
+}
+
+
+/* input[type="file"]::file-selector-button {
+  margin-right: 20px;
+  border: none;
+  background: #084cdf;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+  background-color: #007f00;
+  width: 12vw;
+}
+
+input[type="file"]::file-selector-button:hover {
+  background: #0d45a5;
+} */

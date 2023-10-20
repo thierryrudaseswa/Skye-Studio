@@ -1,23 +1,21 @@
 import React from "react";
 import "./CreateDesignPage.css";
-import { FaPlusCircle } from 'react-icons/fa';
+import { FaPlusCircle } from "react-icons/fa";
 import BasicModal from "../modal/modal";
 
-
 const CreateDesignPage = () => {
-  const [open,setOpen] = React.useState(false);
-  const handleOpen = () =>setOpen(true)
-  const handleClose = () =>setOpen(false);
+  const [open, setOpen] = React.useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
 
   return (
     <>
-
       <div className="mainCreateDp4">
-      <button onClick={handleOpen}>
+        <button onClick={handleOpen}>
           <p>Schedule a Post</p>
         </button>
-        </div>
-       <BasicModal open={open} handleClose={handleClose} >
+      </div>
+      <BasicModal open={open} handleClose={handleClose}>
         <div className="headDp">
           <p> Schedule Post</p>
         </div>
@@ -45,7 +43,7 @@ const CreateDesignPage = () => {
         </div>
         <div className="bottomDp">
           <div className="x">
-            <FaPlusCircle  className="icon"/>
+            <FaPlusCircle className="icon" />
           </div>
         </div>
         <div className="media">
@@ -61,13 +59,13 @@ const CreateDesignPage = () => {
         </div>
         <div className="ManyButons">
           <div className="ManyButtons2">
-          <button>Save</button>
-          <button>Publish Now</button>
-          <button>Delete</button>
+            <button>Save</button>
+            <button>Publish Now</button>
+            <button>Delete</button>
           </div>
         </div>
-        </BasicModal>
-   </>
+      </BasicModal>
+    </>
   );
 };
 
